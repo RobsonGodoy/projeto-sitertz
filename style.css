@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=sw');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+    background-color: #f1f1f1b2;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+}
+header{
+   background-color: #4da1e238;
+   padding: 25px;
+   margin: 10px;
+}
+header > p{
+    font-weight: bold;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    color:#2F6690;
+}
+h1#cabecalho{
+    font-size: 45px;
+    margin: auto;
+    outline-style:inset;
+    outline-width: 5px;
+    outline-color: #2F6690;
+    background-color: #0bc9b636;
+    width: 650px;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.enfatizado{
+    color: #07004D;
+
+}
+span:hover{
+    color: aqua;
+
+}
+nav{
+    border-radius: 50px;
+    background-color: #034170;
+    padding: 3px;
+    text-align: center;
+    box-shadow: 1px 7px 11px rgba(0, 0, 0, 0.712);
+    
+
+}
+nav > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    font-weight: bold;
+    margin-left: 68px;
+}
+main{
+    margin:0 auto;
+    width: auto;
+    text-align: justify;
+}
+#video{
+    margin:0 auto;
+    width: 800px;
+}
+h1#destacado:hover{
+    color: rgb(0, 151, 151);
+}
+
+main > ul{
+    background-color: #4da1e238;
+    font-size: 18px;
+    color: #07004D;
+    font-family: 'Open Sans', sans-serif;
+    width: 600px;
+    margin:38px auto;
+    outline-style: ridge;
+    outline-color: aqua;
+}
+.caixa1{
+    font-family:'Open Sans', sans-serif;
+    background-color: #4da1e238;
+    text-align: justify;
+    outline-style: inset;
+    outline-color: rgb(0, 0, 0);
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: 5px  auto;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.caixa2{
+
+    font-family: 'Open Sans', sans-serif;;
+    background-color: white;
+    text-align: justify;
+    outline-style: inset;
+    outline-color: rgb(0, 0, 0);
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: -2px auto;
+    padding-left: 403px;
+    padding-right: 174px;
+}
+footer > p{
+    background-color: #07004D;
+    color: white;
+    padding: 1px;
+
+}
