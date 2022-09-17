@@ -30,7 +30,7 @@ h1#cabecalho{
     outline-width: 5px;
     outline-color: #2F6690;
     background-color: #0bc9b636;
-    width: 650px;
+    width: auto;
 }
 p{
     font-family: 'Open Sans', sans-serif;
@@ -66,12 +66,19 @@ main{
     width: auto;
     text-align: justify;
 }
+#a1{
+    margin: auto;
+    min-width: 320px;
+    max-width: 800PX;
+}
 #video{
-    margin:0 auto;
-    width: 800px;
+    width: 100%;
+    margin: auto;
 }
 h1#destacado:hover{
     color: rgb(0, 151, 151);
+    min-width: 320px;
+    max-width: 800PX;
 }
 
 main > ul{
@@ -79,7 +86,8 @@ main > ul{
     font-size: 18px;
     color: #07004D;
     font-family: 'Open Sans', sans-serif;
-    width: 600px;
+    min-width: 320px;
+    max-width: 800PX;
     margin:38px auto;
     outline-style: ridge;
     outline-color: aqua;
@@ -87,27 +95,27 @@ main > ul{
 .caixa1{
     font-family:'Open Sans', sans-serif;
     background-color: #4da1e238;
-    text-align: justify;
+    text-align: center;
     outline-style: inset;
     outline-color: rgb(0, 0, 0);
     padding-bottom: 5px;
     padding-top: 5px;
     margin: 5px  auto;
-    padding-left: 200px;
-    padding-right: 200px;
+    min-width: 320px;
+    max-width: 800PX;
 }
 .caixa2{
 
     font-family: 'Open Sans', sans-serif;;
     background-color: white;
-    text-align: justify;
+    text-align: center;
     outline-style: inset;
     outline-color: rgb(0, 0, 0);
     padding-bottom: 5px;
     padding-top: 5px;
     margin: -2px auto;
-    padding-left: 403px;
-    padding-right: 174px;
+    min-width: 320px;
+    max-width: 800PX;
 }
 footer > p{
     background-color: #07004D;
