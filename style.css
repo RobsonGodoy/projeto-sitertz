@@ -68,19 +68,19 @@ main{
 }
 #a1{
     margin: auto;
-    min-width: 320px;
-    max-width: 800PX;
+    min-width: 20px;
+    max-width:800PX;
 }
 #video{
     width: 100%;
     margin: auto;
 }
 h1#destacado{
-    color:#2F6690
-    min-width: 320px;
-    max-width: 800PX;
-    text-align: center;
-    margin: auto;
+    color:#2F6690;
+    min-width:320px;
+    max-width:800PX;
+    text-align:center;
+    margin: 12px auto;
 }
 
 main > ul{
